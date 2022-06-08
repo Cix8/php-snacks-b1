@@ -11,13 +11,31 @@ ul {
 .container {
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .container .item {
     padding: 2rem;
 }
 
+.item .date {
+    font-weight: bold;
+}
+
 .item ul,
 .item li {
     padding: 1rem 0;
+}
+
+li .title {
+    font-size: 1.3rem;
+}
+
+li .author {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+li .text {
+    color: grey;
 }
