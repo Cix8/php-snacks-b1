@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .item {
+    padding: 2rem;
+}
+
+.item ul,
+.item li {
+    padding: 1rem 0;
+}
